@@ -13,3 +13,35 @@
  *= require_tree .
  *= require_self
  */
+ .square-container {
+  display: flex;
+}
+
+.square {
+  margin: 3px;
+  border: 0.1px solid #4682A9;
+  background-color: #91C8E4;
+  display: flex;
+  justify-content: center;
+  font-size: 2em;
+  box-shadow: 2px 2px #F6F4EB;
+  height: 100px;
+  width: 100px;
+  align-items: center;
+}
+
+h1{
+  margin: auto;
+}
+
+input[type="text"]{
+  width: 400px;
+  height: 50px;
+  padding: 0 25px;
+}
+input[type="submit"] {
+  padding: 8px 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
